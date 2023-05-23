@@ -7,6 +7,8 @@ import gc
 import ntptime
 import ssd1306
 
+# Before start you need to add your api key , wifi ussid and password to run the code
+
 # variables
 check = 0
 check0 = 0
@@ -31,7 +33,7 @@ password = ''
 # idk weather shit thing
 city = 'Manasterzec'
 country_code = 'PL'
-open_weather_map_api_key = '0d2f3098efb4ab6daf11d2236b8ce887'
+open_weather_map_api_key = '' # you need to add your api key
 
 # Wi-Fi shitty thing
 station = network.WLAN(network.STA_IF)
